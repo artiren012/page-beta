@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>아르 | White</title>
+        <script src="https://kit.fontawesome.com/067f3db4d7.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../assets/css/common.css">
+        <script type="text/javascript" src="../assets/js/toggleTheme.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>White</h1>
+            <p>
+                <a href="/index.html">메인</a> | 
+                <a href="/projects/index.html">프로젝트</a> | 
+                <a style="cursor: pointer;" onclick="toggleDarkMode()">테마 변경</a>
+            </p>
+        </header>
+        <section>
+            <article id="introduction">
+                <h2>소개</h2>
+                <img id="img-white" height="100" src="../assets/img/white.png">
+                <p><a href="https://youtu.be/s-94AGrZcZk"><i class="fa-brands fa-youtube"></i> 프리뷰 영상</a></p>
+                <p>White는 단순한 조작의 탄막 피하기 게임입니다. 화면의 좌/우를 눌러 플레이어를 좌/우로 움직일 수 있고, 각종 장애물 패턴들을 피해 최대한 많은 점수를 획득해보세요!</p>
+            </article>
+            <article id="download">
+                <h2>다운로드</h2>
+                <p><a href="https://play.google.com/store/apps/details?id=com.arti.white"><i class="fa-brands fa-google-play"></i> Google Play</a></p>
+            </article>
+            <article id="update">
+                <h2>최근 업데이트</h2>
+                <article id="update-1-2">
+                    <h3>7월 업데이트</h3>
+                    <span>2023년 7월 1일 업데이트 (version 1.2)</span>
+                    <ol style="text-align: left;">
+                        <li>챌린지
+                            <ul>
+                                <li>챌린지 시스템이 추가되었습니다. 챌린지 시스템은 메인 레벨과 관계없이 특정한 규칙이 정해져있고, 최대한 많은 점수를 획득하는 시스템입니다.</li>
+                                <li>첫 번째 챌린지가 추가되었습니다. 무작위로 등장하는 패턴들을 피해 최대한 많은 점수를 획득하는 챌린지입니다.플레이는 충돌하기 전까지 무한정 이어지며, 충돌할 경우 게임오버가 되고, 충돌 직전까지 플레이한 시간이 기록됩니다.</li>
+                            </ul>
+                        </li>
+                        <li>UI
+                            <ul>
+                                <li>설정, 챌린지가 "메뉴"로 통합되었습니다.</li>
+                            </ul>
+                        <li>레벨
+                            <ul>
+                                <li>일부 레벨의 밸런스 패치 및 패턴이 일부 수정되었습니다.</li>
+                                <li>변경된 패턴은 최고 점수에 영향을 주지 않습니다.</li>
+                            </ul>
+                        </li>
+                        <li>설정
+                            <ul>
+                                <li>툴팁 설정이 제거되었으며, 툴팁은 표시 상태로 고정됩니다.</li>
+                            </ul>
+                        </li>
+                        <li>기타
+                            <ul>
+                                <li>일부 코드를 최적화하였습니다.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </article>
+                <article id="update-1-1">
+                    <h3>5월 업데이트</h3>
+                    <span>2023년 5월 1일 업데이트 (version 1.1)</span>
+                    <p><a href="https://youtu.be/YqZ9BuZayXI"><i class="fa-brands fa-youtube"></i> 5월 업데이트 프리뷰 영상</a></p>
+                    <ol style="text-align: left;">
+                        <li>UI
+                            <ul>
+                                <li>버튼을 쉽게 알아볼 수 있고, 편하게 누를 수 있도록 개선하였습니다.</li>
+                                <li>‘팁’ 아이콘을 통해 게임과 관련한 TMI와 정보들을 볼 수 있습니다.</li>
+                                <li>레벨 목록에서 최고 정확도 달성 기록을 볼 수 있습니다.</li>
+                                <li>툴팁이 추가되었습니다. 툴팁은 설정에서 켜고 끌 수 있습니다.</li>
+                            </ul>
+                        <li>레벨
+                            <ul>
+                                <li>3번째 레벨이 추가되었습니다.</li>
+                                <li>새로운 효과가 추가되었습니다. 레벨 3에서 확인하실 수 있습니다.</li>
+                            </ul>
+                        </li>
+                        <li>기타
+                            <ul>
+                                <li>메인 화면의 배경음악이 설정 화면에서도 계속 재생되도록 하였습니다.</li>
+                                <li>그 외의 몇 가지 사소하고 눈에 띄지 않는 변화가 생겼습니다.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </article>
+            </article>
+        </section>
+        <footer>
+            <p>SNS | 
+            <a href="https://youtube.com/@artiren012"><i class="fa-brands fa-youtube"></i> Youtube</a> | 
+            <a href="https://twitter.com/@artiren012"><i class="fa-brands fa-twitter"></i> Twitter</a> | 
+            <a href="https://github.com/artiren012"><i class="fa-brands fa-github"></i> Github</a> | 
+            <a href="https://linktr.ee/artiren012"><i class="fa-solid fa-link"></i> Linktree</a></p>
+            <p>2023 Ar.</p>
+        </footer>
+        <script>
+            let img = document.getElementById("img-white");
+            const images = ['../assets/img/white.png', 'https://play-lh.googleusercontent.com/IVILy4C3rt1rCuz4BZRItg7McBYZ_6N-7GU0Poq8zzZOUsCWSR8h0Z66VArEqTdXNoU=w5120-h2880', 'https://play-lh.googleusercontent.com/_KBZxVCrxkkvx1Ao9MVH3nCRvruvT__1qfaf6kRgtRzAHIzR7M_dfBXjlTFS7Pv0iQ=w5120-h2880', 'https://play-lh.googleusercontent.com/fymNB8EmjNnLAM_Sa8hyTUHxIB_Kv_dq8OwRlMVdS4ofS_0ATPK_pO8MtW7XVEaFulU=w5120-h2880', 'https://play-lh.googleusercontent.com/NdiBoJulMJKgtS1Cjp9J4P9DLZjIi-bufUvx_ll-COSZCV4kZ7JAtnX4wm1ezJBevF0=w5120-h2880'];
+            img.src = images[randInt(0, 4)];
+
+            function randInt(min, max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min + 1)) + min; //최댓값도 포함, 최솟값도 포함
+            }
+        </script>
+    </body>
+</html>
