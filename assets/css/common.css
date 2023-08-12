@@ -71,3 +71,10 @@ img {
 img:hover {
     transform: scale(1.2);
 }
+
+input {
+    color: var(--font-color);
+    border-radius: 10px;
+    background-color: var(--article-bg);
+    box-shadow: 0 0 5px var(--article-bg);
+}
