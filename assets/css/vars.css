@@ -2,7 +2,7 @@ body[data-theme='light-mode'] {
     --body-bg: white;
     --font-color: white;
     --header-bg: rgb(0, 100, 215);
-    --article-bg: rgba(0, 125, 215, 0.8);
+    --article-bg: rgba(0, 100, 215, 0.8);
     --a-hover: darkgray;
     --span-color: lightgray;
 }
